@@ -2,99 +2,81 @@
 layout: default
 ---
 
-<div class="hero hero--clean">
-  <div class="hero__bg"></div>
+<section class="hero-min">
+  <div class="hero-min__bg"></div>
 
-  <div class="hero__inner">
-    <div class="hero__left">
-      <div class="badge">Cybersecurity • Projects & Notes</div>
-
-      <h1 class="hero__title">
-        jrm-sec
-        <span class="hero__titleGlow">Portfolio</span>
+  <div class="hero-min__wrap">
+    <div class="hero-min__head">
+      <div class="kicker">jrm-sec</div>
+      <h1 class="title">
+        Cybersecurity portfolio
+        <span class="title__accent">built with intent</span>
       </h1>
 
-      <p class="hero__subtitle">
-        Soy Joel (jrm). Documentando <strong>proyectos de ciberseguridad</strong>, análisis y aprendizajes prácticos.
-        Me interesa tanto el lado <strong>defensivo</strong> como el <strong>ofensivo</strong> (siempre en entornos autorizados).
+      <p class="subtitle">
+        Soy Joel (jrm). Documento proyectos y notas técnicas de ciberseguridad.
+        Mezclo enfoque defensivo y ofensivo <strong>siempre en entornos autorizados</strong>,
+        con prioridad en claridad, impacto y aprendizaje real.
       </p>
 
-      <div class="hero__cta">
-        <a class="btn btn--primary" href="./projects.html">Ver proyectos</a>
-        <a class="btn btn--ghost" href="./blog.html">Ir al blog</a>
-      </div>
-
-      <div class="hero__meta">
-        <div class="metaCard">
-          <div class="metaCard__k">Foco</div>
-          <div class="metaCard__v">Aprendizaje práctico</div>
-        </div>
-        <div class="metaCard">
-          <div class="metaCard__k">Formato</div>
-          <div class="metaCard__v">Proyectos + notas</div>
-        </div>
-        <div class="metaCard">
-          <div class="metaCard__k">Estilo</div>
-          <div class="metaCard__v">Claro y directo</div>
-        </div>
+      <div class="actions">
+        <a class="btn btn--solid" href="./projects.html">Proyectos</a>
+        <a class="btn btn--ghost" href="./blog.html">Blog</a>
+        <a class="btn btn--ghost" href="./about.html">Sobre mí</a>
       </div>
     </div>
 
-    <div class="hero__right">
-      <div class="terminal terminal--clean">
-        <div class="terminal__top">
-          <span class="dot dot--red"></span>
-          <span class="dot dot--yellow"></span>
-          <span class="dot dot--green"></span>
-          <span class="terminal__title">portfolio.log</span>
+    <div class="hero-min__side">
+      <div class="panel">
+        <div class="panel__top">
+          <span class="pill">Status</span>
+          <span class="pill pill--soft">Active</span>
         </div>
-        <div class="terminal__body">
-<pre><code>$ whoami
-jrm-sec
 
-$ now
-- proyectos (red, web, hardening, labs autorizados)
-- análisis de impacto y mitigación
-- documentación clara
-
-$ open
-projects → casos prácticos
-blog → notas cortas</code></pre>
+        <div class="panel__body">
+          <div class="row">
+            <div class="row__k">Focus</div>
+            <div class="row__v">Projects • Notes • Learning</div>
+          </div>
+          <div class="row">
+            <div class="row__k">Domains</div>
+            <div class="row__v">Network • Web • Hardening • IR</div>
+          </div>
+          <div class="row">
+            <div class="row__k">Principle</div>
+            <div class="row__v">Criterio &gt; ruido</div>
+          </div>
         </div>
-      </div>
 
-      <div class="stack stack--clean">
-        <div class="stack__title">Áreas</div>
-        <div class="stack__grid">
-          <div class="chip">Riesgo</div>
-          <div class="chip">Red</div>
-          <div class="chip">Web</div>
-          <div class="chip">Hardening</div>
-          <div class="chip">Logs</div>
-          <div class="chip">IR basics</div>
-          <div class="chip">Threats</div>
-          <div class="chip">Labs</div>
+        <div class="panel__code">
+<pre><code>$ open portfolio
+→ projects
+→ blog
+
+$ rule
+documentar lo que haría en un entorno real</code></pre>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="section section--clean">
-  <h2 class="section__title">Accesos</h2>
-  <div class="cards cards--clean">
-    <a class="card card--clean" href="./projects.html">
-      <div class="card__icon">▣</div>
-      <div class="card__title">Proyectos</div>
-      <div class="card__text">Casos prácticos, conclusiones y aprendizajes aplicables.</div>
-      <div class="card__link">Abrir →</div>
-    </a>
+<section class="grid-min">
+  <a class="card-min" href="./projects.html">
+    <div class="card-min__top">
+      <span class="dot dot--p"></span>
+      <span class="card-min__title">Proyectos</span>
+    </div>
+    <div class="card-min__text">Casos prácticos con contexto, conclusiones y siguientes pasos.</div>
+    <div class="card-min__link">Abrir →</div>
+  </a>
 
-    <a class="card card--clean" href="./blog.html">
-      <div class="card__icon">✦</div>
-      <div class="card__title">Blog</div>
-      <div class="card__text">Notas cortas y claras para consolidar conceptos.</div>
-      <div class="card__link">Abrir →</div>
-    </a>
-  </div>
-</div>
+  <a class="card-min" href="./blog.html">
+    <div class="card-min__top">
+      <span class="dot dot--p2"></span>
+      <span class="card-min__title">Blog</span>
+    </div>
+    <div class="card-min__text">Notas cortas y claras para consolidar conceptos y criterio.</div>
+    <div class="card-min__link">Abrir →</div>
+  </a>
+</section>

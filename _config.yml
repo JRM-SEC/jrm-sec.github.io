@@ -1,0 +1,12 @@
+title: jrm-sec
+description: Portfolio de proyectos de ciberseguridad (SOC / Blue Team) y documentación técnica.
+theme: minima
+
+minima:
+  skin: auto
+
+header_pages:
+  - projects.md
+  - checklists.md
+  - blog.md
+  - about.md

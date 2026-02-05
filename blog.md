@@ -11,10 +11,10 @@ Aquí documento ideas, aprendizajes y reflexiones sobre ciberseguridad y proyect
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
 <span style="opacity:.7;font-size:.9em;">
-  {{ post.date | date: "%d %B %Y" }}
+  {{ post.date | date: "%d/%m/%Y" }}
 </span>
 
-{{ post.excerpt }}
+{{ post.excerpt | strip_html | truncate: 220 }}
 
 ---
 

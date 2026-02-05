@@ -302,3 +302,5 @@ pre, code{
   color: rgba(196,181,253,.95);
   font-weight: 850;
 }
+
+body { background: #050615 !important; }

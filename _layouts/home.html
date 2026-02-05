@@ -2,130 +2,99 @@
 layout: default
 ---
 
-<div class="hero">
+<div class="hero hero--clean">
   <div class="hero__bg"></div>
 
   <div class="hero__inner">
     <div class="hero__left">
-      <div class="badge">SOC / Blue Team • Portfolio</div>
+      <div class="badge">Cybersecurity • Projects & Notes</div>
+
       <h1 class="hero__title">
         jrm-sec
-        <span class="hero__titleGlow">Cybersecurity</span>
+        <span class="hero__titleGlow">Portfolio</span>
       </h1>
 
       <p class="hero__subtitle">
-        Soy Joel (jrm). Documentando proyectos, análisis de riesgos y recursos de seguridad con enfoque
-        <strong>defensivo</strong>: impacto, detección y mitigación.
+        Soy Joel (jrm). Documentando <strong>proyectos de ciberseguridad</strong>, análisis y aprendizajes prácticos.
+        Me interesa tanto el lado <strong>defensivo</strong> como el <strong>ofensivo</strong> (siempre en entornos autorizados).
       </p>
 
       <div class="hero__cta">
         <a class="btn btn--primary" href="./projects.html">Ver proyectos</a>
-        <a class="btn btn--ghost" href="./cheatsheets/index.html">Cheatsheets OWASP</a>
-        <a class="btn btn--ghost" href="./checklists/index.html">Checklists</a>
+        <a class="btn btn--ghost" href="./blog.html">Ir al blog</a>
       </div>
 
       <div class="hero__meta">
         <div class="metaCard">
-          <div class="metaCard__k">Enfoque</div>
-          <div class="metaCard__v">Defensa • SOC mindset</div>
+          <div class="metaCard__k">Foco</div>
+          <div class="metaCard__v">Aprendizaje práctico</div>
         </div>
         <div class="metaCard">
           <div class="metaCard__k">Formato</div>
-          <div class="metaCard__v">Proyectos • Docs • Blog</div>
+          <div class="metaCard__v">Proyectos + notas</div>
         </div>
         <div class="metaCard">
-          <div class="metaCard__k">Principio</div>
-          <div class="metaCard__v">Criterio > postureo</div>
+          <div class="metaCard__k">Estilo</div>
+          <div class="metaCard__v">Claro y directo</div>
         </div>
       </div>
     </div>
 
     <div class="hero__right">
-      <div class="terminal">
+      <div class="terminal terminal--clean">
         <div class="terminal__top">
           <span class="dot dot--red"></span>
           <span class="dot dot--yellow"></span>
           <span class="dot dot--green"></span>
-          <span class="terminal__title">incident-notes.sh</span>
+          <span class="terminal__title">portfolio.log</span>
         </div>
         <div class="terminal__body">
 <pre><code>$ whoami
 jrm-sec
 
-$ focus
-blue-team / soc / risk-analysis
+$ now
+- proyectos (red, web, hardening, labs autorizados)
+- análisis de impacto y mitigación
+- documentación clara
 
-$ today
-- analizar superficie, impacto y detección
-- proponer mitigación realista (PYME-friendly)
-- documentar claro, sin humo
-
-$ next
-open: projects → router-risk → cheatsheets</code></pre>
+$ open
+projects → casos prácticos
+blog → notas cortas</code></pre>
         </div>
       </div>
 
-      <div class="stack">
-        <div class="stack__title">Stack mental</div>
+      <div class="stack stack--clean">
+        <div class="stack__title">Áreas</div>
         <div class="stack__grid">
           <div class="chip">Riesgo</div>
-          <div class="chip">Detección</div>
-          <div class="chip">Mitigación</div>
+          <div class="chip">Red</div>
+          <div class="chip">Web</div>
           <div class="chip">Hardening</div>
           <div class="chip">Logs</div>
-          <div class="chip">Segm.</div>
           <div class="chip">IR basics</div>
-          <div class="chip">OWASP</div>
+          <div class="chip">Threats</div>
+          <div class="chip">Labs</div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="section">
-  <h2 class="section__title">Rutas rápidas</h2>
-  <div class="cards">
-    <a class="card" href="./projects.html">
+<div class="section section--clean">
+  <h2 class="section__title">Accesos</h2>
+  <div class="cards cards--clean">
+    <a class="card card--clean" href="./projects.html">
       <div class="card__icon">▣</div>
       <div class="card__title">Proyectos</div>
-      <div class="card__text">Casos reales: impacto, señales, mitigación y cómo lo contaría en entrevista.</div>
+      <div class="card__text">Casos prácticos, conclusiones y aprendizajes aplicables.</div>
       <div class="card__link">Abrir →</div>
     </a>
 
-    <a class="card" href="./checklists/index.html">
-      <div class="card__icon">✓</div>
-      <div class="card__title">Checklists</div>
-      <div class="card__text">Revisión/hardening modular en Markdown, mantenida como documentación viva.</div>
-      <div class="card__link">Abrir →</div>
-    </a>
-
-    <a class="card" href="./cheatsheets/index.html">
-      <div class="card__icon">◇</div>
-      <div class="card__title">Cheatsheets OWASP</div>
-      <div class="card__text">SQLi, XSS, XXE, SSRF, CSRF orientado a defensa: riesgo + mitigación.</div>
-      <div class="card__link">Abrir →</div>
-    </a>
-
-    <a class="card" href="./blog.html">
+    <a class="card card--clean" href="./blog.html">
       <div class="card__icon">✦</div>
       <div class="card__title">Blog</div>
-      <div class="card__text">Posts cortos para fijar conceptos y enseñar criterio, no comandos.</div>
+      <div class="card__text">Notas cortas y claras para consolidar conceptos.</div>
       <div class="card__link">Abrir →</div>
     </a>
-  </div>
-</div>
-
-<div class="section section--thin">
-  <div class="callout">
-    <div class="callout__left">
-      <div class="callout__title">Modo entrevista</div>
-      <div class="callout__text">
-        Este portfolio está pensado para responder “¿cómo piensas?”:
-        priorización de riesgos, detección, contención y mitigación.
-      </div>
-    </div>
-    <div class="callout__right">
-      <a class="btn btn--primary" href="./about.html">Sobre mí</a>
-    </div>
   </div>
 </div>

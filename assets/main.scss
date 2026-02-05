@@ -308,8 +308,7 @@ pre, code{
 
 
 
-.site-title { 
-  text-transform: uppercase !important;
-  letter-spacing: 2px !important;
-}
+/* TEST VISUAL (borra luego si quieres) */
+body { filter: hue-rotate(35deg) !important; }
+
 

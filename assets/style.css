@@ -1,0 +1,4 @@
+/* Pequeños retoques sin complicarse */
+.site-title { letter-spacing: 0.2px; }
+.post-content h1, .post-content h2, .post-content h3 { margin-top: 1.4rem; }
+code, pre { font-size: 0.95em; }
